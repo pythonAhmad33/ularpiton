@@ -6,6 +6,7 @@ from sys import *
 from time import sleep
 
 print ("\033[32;1m")
+
 # ========== program ========== #
 
 def animate(teks):
@@ -51,7 +52,7 @@ def menu():
         print (66*"_")
         print ("""
 
-    1. desimal/ascii > biner/octal/hexa
+    1. DESIMAL/ASCII > BINER/OKTAL/HEXA
     2. about
     3. exit
 
@@ -85,5 +86,6 @@ def menu():
 menu()
 
 # ========= done ========= #
+
 print ('\033[0m')
 
